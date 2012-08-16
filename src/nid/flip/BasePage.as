@@ -31,6 +31,7 @@ package nid.flip
 		private var bookmark:BookMark;
 		private var rounded_corner:XML;
 		
+		public var content:DisplayObject;
 		public var type:String;
 		public var side:String;
 		public var index:int;
@@ -176,7 +177,7 @@ package nid.flip
 		private function onComplete(e:Event):void 
 		{
 			try {
-				var content:DisplayObject = e.currentTarget.content as DisplayObject;
+				content = e.currentTarget.content as DisplayObject;
 				if (type == "font_cover")
 				{
 					if (side == "left")
