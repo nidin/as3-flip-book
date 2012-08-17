@@ -244,9 +244,9 @@
 			PAGE_HEIGHT 	= xml.settings.height;
 			width_diff 		= xml.settings.width_diff;
 			height_diff 	= xml.settings.height_diff;
-			fast_bookmark 	= Boolean2.toBoolean(xml.settings.bookmark.@skip_pages);
-			hard_cover 		= Boolean2.toBoolean(xml.settings.hard_cover);
-			inner_shadow 	= Boolean2.toBoolean(xml.settings.inner_shadow);
+			fast_bookmark 	= xml.settings.bookmark.@skip_pages=="true";
+			hard_cover 		= xml.settings.hard_cover=="true";
+			inner_shadow 	= xml.settings.inner_shadow=="true";
 			rounded_corner 	= xml.settings.rounded_corner[0];
 			
 			playMusic(xml.settings.music[0]);
