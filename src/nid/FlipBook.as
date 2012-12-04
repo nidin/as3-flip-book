@@ -215,7 +215,7 @@
 			ax = ay = 0;		//auto x,y
 			acnt = 0;
 			aadd = 0;			
-			//load(stage.loaderInfo.parameters.book_data == undefined?'book_data.xml':stage.loaderInfo.parameters.book_data);
+			load(stage.loaderInfo.parameters.book_data == undefined?'book_data.xml':stage.loaderInfo.parameters.book_data);
 		}
 		
 		public function load(url:String):void 
