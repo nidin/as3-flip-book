@@ -1203,15 +1203,15 @@
 				if (i == 0) 
 				{
 					channel = sound_0.play();
-					channel.soundTransform = new SoundTransform();
+					if (channel != null) channel.soundTransform = new SoundTransform();
 					sound_0.addEventListener(Event.COMPLETE, function (e:Event):void {
-						channel.stop();
+						if (channel != null) channel.stop();
 						playSound(2);
 					});
 				} else {
 					i--;
 					channel = this["sound_" + i].play();
-					channel.soundTransform = new SoundTransform();
+					if (channel != null) channel.soundTransform = new SoundTransform();
 				}
 			}
 		}
