@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<settings>
+		<width>360</width>
+		<height>480</height>
+		<width_diff>0</width_diff>
+		<height_diff>0</height_diff>
+		<music enabled="false" volume="50">music.mp3</music>
+		<bookmark skip_pages="true">true</bookmark>
+		<hard_cover>false</hard_cover>
+		<inner_shadow>true</inner_shadow>
+	</settings>
+	<page left="pages/cover_front_out.swf" right="pages/cover_front_in.swf"></page>
+	<page bookmark="bookmark1" left="" right=""></page>
+	<page left="" right=""></page>
+	<page bookmark="bookmark2" left="" right=""></page>
+	<page left="" right=""></page>
+	<page left="" right=""></page>
+	<page bookmark="bookmark2" left="" right=""></page>
+	<page left="" right=""></page>
+	<page left="pages/cover_back_in.swf" right="pages/cover_back_out.swf"></page>
+</data>
