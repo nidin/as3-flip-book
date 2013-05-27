@@ -1,11 +1,10 @@
 
-
 /**
  * AS3 FLIP BOOK
  * @author : Nidin P Vinayakan
  */
 
-This is a flipbook program written in Action Script 3
+An open source flipbook program written in Action Script 3
 This program is released under the GNU Lesser General Public License, version 3.0 (LGPL-3.0).
 
 
