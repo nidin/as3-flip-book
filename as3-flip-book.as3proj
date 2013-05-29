@@ -7,7 +7,7 @@
     <movie path="bin\FlipBook.swf" />
     <movie fps="30" />
     <movie width="1240" />
-    <movie height="620" />
+    <movie height="1024" />
     <movie version="11" />
     <movie minorVersion="3" />
     <movie platform="Flash Player" />
@@ -20,6 +20,7 @@
   <!-- Build options -->
   <build>
     <option accessible="False" />
+    <option advancedTelemetry="False" />
     <option allowSourcePathOverlap="False" />
     <option benchmark="False" />
     <option es="False" />
